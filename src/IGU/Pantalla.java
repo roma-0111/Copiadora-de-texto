@@ -1,18 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package IGU;
 
-/**
- *
- * @author brian
- */
 public class Pantalla extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Pantalla
-     */
     public Pantalla() {
         initComponents();
     }
@@ -149,9 +138,6 @@ public class Pantalla extends javax.swing.JFrame {
     private void btnCopiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCopiarActionPerformed
         //Para que copie el texto de la caja a la otra caja de texto
         txtTextoCopiado.setText(txtTextoAIngresar.getText());
-        
-        
-        
     }//GEN-LAST:event_btnCopiarActionPerformed
 
     private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarActionPerformed
@@ -159,7 +145,7 @@ public class Pantalla extends javax.swing.JFrame {
         txtTextoCopiado.setText("");
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCopiar;
     private javax.swing.JButton btnLimpiar;
