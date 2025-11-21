@@ -139,8 +139,8 @@ public class Pantalla extends javax.swing.JFrame {
         //Para que copie el texto de la caja a la otra caja de texto
         txtTextoCopiado.setText(txtTextoAIngresar.getText());
     }//GEN-LAST:event_btnCopiarActionPerformed
-
     private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarActionPerformed
+        //Limpia las cajas de texto.
         txtTextoAIngresar.setText("");
         txtTextoCopiado.setText("");
     }//GEN-LAST:event_btnLimpiarActionPerformed
