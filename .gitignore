@@ -25,5 +25,5 @@ replay_pid*
 
 # carpetas
 dist/
-nbproyect/
+nbproject/
 test/

@@ -32,30 +32,30 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(45, 45, 45));
         jPanel1.setForeground(new java.awt.Color(185, 185, 185));
 
-        jLabel1.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Calibri", 1, 32)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 153, 0));
         jLabel1.setText("Copiadora");
 
         jLabel2.setBackground(new java.awt.Color(102, 102, 102));
-        jLabel2.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Courier New", 0, 16)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 153, 0));
         jLabel2.setText("Texto a ingresar:");
 
         txtTextoAIngresar.setBackground(new java.awt.Color(50, 50, 50));
-        txtTextoAIngresar.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
+        txtTextoAIngresar.setFont(new java.awt.Font("Courier New", 0, 16)); // NOI18N
         txtTextoAIngresar.setForeground(new java.awt.Color(185, 185, 185));
 
         jLabel3.setBackground(new java.awt.Color(102, 102, 102));
-        jLabel3.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Courier New", 0, 16)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 153, 0));
         jLabel3.setText("Texto copiado:");
 
         txtTextoCopiado.setBackground(new java.awt.Color(50, 50, 50));
-        txtTextoCopiado.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
+        txtTextoCopiado.setFont(new java.awt.Font("Courier New", 0, 16)); // NOI18N
         txtTextoCopiado.setForeground(new java.awt.Color(185, 185, 185));
 
-        btnCopiar.setBackground(new java.awt.Color(102, 102, 102));
-        btnCopiar.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
+        btnCopiar.setBackground(new java.awt.Color(75, 75, 75));
+        btnCopiar.setFont(new java.awt.Font("Courier New", 0, 16)); // NOI18N
         btnCopiar.setForeground(new java.awt.Color(185, 185, 185));
         btnCopiar.setText("Copiar");
         btnCopiar.addActionListener(new java.awt.event.ActionListener() {
@@ -64,8 +64,8 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
 
-        btnLimpiar.setBackground(new java.awt.Color(102, 102, 102));
-        btnLimpiar.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
+        btnLimpiar.setBackground(new java.awt.Color(75, 75, 75));
+        btnLimpiar.setFont(new java.awt.Font("Courier New", 0, 16)); // NOI18N
         btnLimpiar.setForeground(new java.awt.Color(185, 185, 185));
         btnLimpiar.setText("Limpiar");
         btnLimpiar.addActionListener(new java.awt.event.ActionListener() {
@@ -79,44 +79,49 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(100, 100, 100)
-                .addComponent(jLabel1)
-                .addContainerGap(117, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(txtTextoAIngresar)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(txtTextoCopiado, javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(101, 101, 101)
+                        .addComponent(jLabel1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel2))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(txtTextoAIngresar))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(txtTextoCopiado, javax.swing.GroupLayout.DEFAULT_SIZE, 358, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnCopiar, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btnLimpiar, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addComponent(btnLimpiar, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btnCopiar, javax.swing.GroupLayout.Alignment.TRAILING))))
                 .addContainerGap())
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
+                .addContainerGap()
                 .addComponent(jLabel1)
-                .addGap(33, 33, 33)
+                .addGap(41, 41, 41)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtTextoAIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnCopiar)
-                .addGap(45, 45, 45)
+                .addComponent(btnCopiar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtTextoCopiado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnLimpiar)
-                .addContainerGap(127, Short.MAX_VALUE))
+                .addComponent(btnLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(138, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
