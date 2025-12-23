@@ -4,13 +4,13 @@ import IGU.Pantalla;
 public class CopiadoraDeTexto {
  
     public static void main(String[] args) {
-        //Nos instanciamos a la Clase Pantalla.
-        Pantalla pant = new Pantalla();
+        //Creamos el Objeto
+        Pantalla pantalla = new Pantalla();
         
-        //Modificamos al Objeto con los Setters
-        pant.setTitle("Copiadora de texto!");
-        pant.setLocationRelativeTo(null); //Ubicamos en la posición en el medio. (no funciona del bien)
-        pant.setVisible(true); //Hacemos visible
+        //Modificamos al Objeto
+        pantalla.setTitle("Copiadora de texto!");
+        pantalla.setLocationRelativeTo(null); //Ubicamos en la posición en el medio. (no funciona del bien)
+        pantalla.setVisible(true); //Hacemos visible
         
     }
 
